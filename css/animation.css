@@ -1,0 +1,26 @@
+.shape1{
+    animation: move 4s alternate infinite linear;
+}
+
+@keyframes move{
+    0%{
+        transform: rotate(-50deg) translate(0,0);
+    }
+    100%{
+        transform: translate(300px,-500px) rotate(-150deg);
+    }
+}
+
+.shape2{
+    animation: movement 5s linear infinite alternate;
+}
+
+@keyframes movement{
+    0%{
+        transform: translate(0,0);
+    }
+    
+    100%{
+        transform: translate(500px, 500px);
+    }
+}
