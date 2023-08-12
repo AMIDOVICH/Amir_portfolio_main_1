@@ -1,5 +1,8 @@
 @media(max-width:767px)
 {
+    .container{
+        display: none;
+    }
     .nav__btn{
         display: flex;
         
@@ -68,6 +71,9 @@
 }
 
 @media(max-width:575px){
+    .container{
+        display: none;
+    }
     h1{
         font-size: 35px;
         line-height: 35px;
